@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal; 
+  font-family: 'Raleway', sans-serif;
+}
+
+#container {
+  width: 40%;
+   margin: auto;
+  border: 1px solid #171717;
+  padding: 10px;
+  background-color: #a8b4ba;
+  border-radius: 5px;
+}
+
+table {
+ width: 100%;
+border-collapse: collapse;
+}
+
+.interior{
+  border: 1px solid black;
+   box-sizing: border-box;
+   background-color: white;
+  height: 30px;
+}
+
+.label{
+   margin-top: 2px;
+  padding-left: 2px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.rowOne{
+  width: 50%;
+  margin: 0px;
+}
+
+#input {
+   outline: none;
+   border-radius: 0px;
+  font-size: 25px;
+   width: 100%;
+  margin: 0px;
+}
+
+#answer {
+  width: 100%;
+  padding-left: 3px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+#button {
+  line-height: 30px;
+  width: 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+ margin: 0px;
+  font-size:  14px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*, this prevents the button flashing black when tapped on a touchscreen */
+  transition: all 0.2s ease-out;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+#button:active {
+  background-color: black;
+  color: white;
+}
+
+#explanation {
+  margin: 0px;
+  padding-left: 3px;
+   font-size: 22px;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 1150px) { 
+#container {
+  width: 92%;
+  padding: 5px;
+  }
+  
+  #input {
+     font-size: 18px;
+  }
+  
+  #answer {
+    font-size: 18px;
+  }
+  
+  #explanation {
+    font-size: 16px;
+  }
+}

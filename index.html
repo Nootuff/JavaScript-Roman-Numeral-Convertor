@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>Roman Numeral Converter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+ <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Roman Numeral Converter</h1>
+ <div id="container">
+   <table>
+     <tr><td class ="label">Input:</td></tr>
+     <tr><td class="rowOne"><input type="number" class="interior" id="input"  name="input" min="1" max="4999" oninput ="convertToRoman()"></td>
+   
+  <td ><p class="interior" id="button" onclick ="reset()" ontouchstart="" >X</p></td>
+  </tr>
+     <tr><td class ="label">Numeral:</td></tr>
+  <tr><td colspan="2"><p class="interior" id="answer"></p></td></tr>
+     <tr><td colspan="2"><p class="interior" id = "explanation"></p></td></tr>
+     </table>
+   </div>
+   <script type="text/javascript" src="scripts.js"></script>
+  </body>
+  </html>
